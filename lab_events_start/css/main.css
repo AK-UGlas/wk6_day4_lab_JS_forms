@@ -1,0 +1,33 @@
+body {
+  font-family: Palatino;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.item{
+background-color: blanchedalmond;
+width: 200px;
+height: 150px;
+padding-right: 5px;
+margin: 5px;
+border-radius: 5px;
+
+}
+
+#form-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-item{
+  display: inline-block;
+  width: 200px;
+  height:75px;
+  margin: 5px;
+
+}
